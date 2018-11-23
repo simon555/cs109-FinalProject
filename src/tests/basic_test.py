@@ -1,6 +1,6 @@
 import pytest
 
-def simple_test():
+def test_simple():
 	x=4
 	assert x==4, 'just to make Travis happy'
 	
