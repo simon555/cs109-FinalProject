@@ -1,7 +1,7 @@
 # cs109-FinalProject
 
 
-[![Build Status](https://travis-ci.com/simon555/cs109-FinalProject.svg?branch=master)](ttps://travis-ci.com/simon555/cs109-FinalProject
+[![Build Status](https://travis-ci.com/simon555/cs109-FinalProject.svg?branch=master)](https://travis-ci.com/simon555/cs109-FinalProject
 ) 
 
 
