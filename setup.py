@@ -10,7 +10,7 @@ setuptools.setup(
     author_email="N/A",
     description="Group Repo for the CS209 Project",
     long_description=long_description,
-    url="https://github.com/cs207-project-group4/cs207-FinalProject",
+    url="https://github.com/simon555/cs109-FinalProject",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
