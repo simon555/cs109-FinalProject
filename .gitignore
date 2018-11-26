@@ -1,4 +1,5 @@
-data/*/
+#exclude all the csv files from the data folder
+data/**/*.csv
 
 
 
