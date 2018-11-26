@@ -3,6 +3,6 @@ This folder will contain the scripts for :
 - feature engineering
 
 
-## Data Cleaning 
+## Data Cleaning Summary
 - id
 empty attribute, we removed it
