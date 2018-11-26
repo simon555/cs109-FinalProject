@@ -16,5 +16,18 @@
 
 When you are developping in this repo, don't forget to :
 
-- create your branch, make your modifications, write tests, check Travis if the building worked, and **then** push to master
 - run `python setup.py install` or `python3 setup.py install` otherwise your imports will fail
+
+- When you want to develop code follow these steps :
+
+1- you want to add some code to the master branch
+
+2- create your own separate branch
+
+3- write your code
+
+4- write tests to see if your code does not break itself / is consistent with previous code already in the master
+
+5- merge your branch to the master
+
+6- delete your own branch
