@@ -3,6 +3,14 @@ This folder will contain the scripts for :
 - feature engineering
 
 
+## Instructions
+You should work on the small data provided on the drive in data/smallData/rawData/ 
+
+You will download these files and put them in your own github repo (locally) at data/smallData/rawData/
+
+
+
+
 ## Data Cleaning Summary
 - id 
 
