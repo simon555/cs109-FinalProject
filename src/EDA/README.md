@@ -1,10 +1,10 @@
-This folder will contain the scripts for : 
+This folder will contain the scripts for :
 - data cleaning
 - feature engineering
 
 
 ## Data Cleaning Summary
-- id 
+- id
 
 empty attribute, we removed it
 
@@ -34,7 +34,6 @@ sub_grade = D4 --> grade_D=4
 sub_grade = A3 --> grade_A=2
 ```
 
-
 - emp_title
 
 Name of the borrower'job, not useful for our analysis. We will remove this variable
@@ -42,7 +41,7 @@ Name of the borrower'job, not useful for our analysis. We will remove this varia
 
 - emp_length
 
-number of missing values : 1078. 
+number of missing values : 1078.
 We embedded these strings ('<1 year', '4 years', '10+ years',..) as integers (0,4,10,...). The missing values have not been modified yet
 
 
@@ -55,3 +54,14 @@ categorical variable on 5 levels, but the level HOME_NONE appears only 3 times..
 
 Did not find doc. To be continued...
 
+Add boolean column for max value
+- Loan amount (named loan_amnt_is_max)
+- funded_amnt (named funded_amnt_is_max)
+
+Add boolean column for min value
+- Loan amount (named loan_amnt_is_max)
+- funded_amnt (named funded_amnt_is_max)
+
+Add boolean column for 0's
+- funded_amnt_inv (named first_inv_for_loan)
+- delinq_2yrs (named no_delinq_2yrs)
