@@ -4,7 +4,7 @@ This folder will contain the scripts for :
 
 
 ## Data Cleaning Summary
-- id
+- id \n
 empty attribute, we removed it
 
 - term
