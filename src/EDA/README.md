@@ -9,8 +9,11 @@ You will download these files and put them in your own github repo (locally) at 
 
 2. To perform your data cleaning, you should create your own jupyter notebook EDA_[yourName].ipynb and then, for every feature you are cleaning **in the notebook** :
 a. Write an outline of what you are going to do
+
 b. Make your analysis/data modification
+
 c. Write a Conclusion
+
 d. Write a summary of what you did for that feature in the README
                                           
 
