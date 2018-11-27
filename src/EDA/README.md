@@ -48,6 +48,10 @@ We embedded these strings ('<1 year', '4 years', '10+ years',..) as integers (0,
 
 - home_ownership
 
-categorical variable on 5 levels, but the level HOME_NONE appears only 3 times... we will remove these entries to get a 4-level dummy variables. ** NOTE, we should also remove HOME_OTHER which appears <100 times **
+categorical variable on 5 levels, but the level HOME_NONE appears only 3 times... we will remove these entries to get a 4-level dummy variables. **NOTE, we should also remove HOME_OTHER which appears <100 times**
 
+
+- verification_status
+
+Did not find doc. To be continued...
 
