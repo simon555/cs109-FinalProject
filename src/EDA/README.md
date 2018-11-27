@@ -19,6 +19,8 @@ d. Write a summary of what you did for that feature **in the README**
 
 
 I will provide a template of EDA.ipynb you can use
+
+3. When you finished your data cleaning on your features, save your cleaned dataset in data/tmp/[yourName]/ ...
                                           
 
 
