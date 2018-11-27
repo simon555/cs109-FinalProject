@@ -4,7 +4,7 @@ This folder will contain the scripts for :
 
 
 ## Instructions
-You should work on the small data provided on the drive in data/smallData/rawData/ 
+You should work on the small data provided on the drive in data/smallData/rawData/
 
 You will download these files and put them in your own github repo (locally) at data/smallData/rawData/
 
@@ -73,3 +73,5 @@ Add boolean column for min value
 Add boolean column for 0's
 - funded_amnt_inv (named first_inv_for_loan)
 - delinq_2yrs (named no_delinq_2yrs)
+- mths_since_last_delinq (named delinq_this_month)
+- mths_since_last_record (named record_this_month)
