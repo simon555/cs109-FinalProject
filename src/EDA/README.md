@@ -39,7 +39,7 @@ Convert into a categorical attribute. 0 for 36 months, 1 for 60 months
 
 - int_rate
 
-Convert into a float attribute
+Convert into a float attribute. For now we kept it as 0-100 but maybe we should rescale it between 0 and 1 ?
 
 
 - grade
