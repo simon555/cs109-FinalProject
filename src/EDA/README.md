@@ -4,15 +4,14 @@ This folder will contain the scripts for :
 
 
 ## Instructions
-1-  You should work on the small data provided on the drive in data/smallData/rawData/ 
+1. You should work on the small data provided on the drive in data/smallData/rawData/ 
 You will download these files and put them in your own github repo (locally) at data/smallData/rawData/
 
-2- To perform your data cleaning, you will have to process in steps
-  a. create your own jupyter notebook EDA_[yourName].ipynb
-  b. for every feature you are cleaning **in the notebook** :    1. Write an outline of what you are going to do
-                                                                 2. Make your analysis/data modification
-                                                                 3. Write a Conclusion
-                                                                 4. Write a summary of what you did for that feature in the README
+2. To perform your data cleaning, you should create your own jupyter notebook EDA_[yourName].ipynb and then, for every feature you are cleaning **in the notebook** :
+a. Write an outline of what you are going to do
+b. Make your analysis/data modification
+c. Write a Conclusion
+d. Write a summary of what you did for that feature in the README
                                           
 
 
