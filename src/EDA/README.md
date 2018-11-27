@@ -1,4 +1,4 @@
-This folder will contain the scripts for : 
+This folder will contain the scripts for :
 - data cleaning
 - feature engineering
 
@@ -28,3 +28,15 @@ sub_grade = A1 --> grade_A=1
 sub_grade = D4 --> grade_D=4
 sub_grade = A3 --> grade_A=2
 ```
+
+Add boolean column for max value
+- Loan amount (named loan_amnt_is_max)
+- funded_amnt (named funded_amnt_is_max)
+
+Add boolean column for min value
+- Loan amount (named loan_amnt_is_max)
+- funded_amnt (named funded_amnt_is_max)
+
+Add boolean column for 0's
+- funded_amnt_inv (named first_inv_for_loan)
+- delinq_2yrs (named no_delinq_2yrs)
