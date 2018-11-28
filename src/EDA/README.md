@@ -94,8 +94,7 @@ date, I embedded it using issue_d_day and issue_d_month. The issue_d_year should
 
 - loan_status
 
-Categorical variable of 2 levels : FullyPaid : 0, ChargedOFf :1
-
+Categorical variable of 6 levels. This is going to be the output label
 
 - payment_plan
 
