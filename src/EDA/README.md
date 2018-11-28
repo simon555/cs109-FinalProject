@@ -4,7 +4,11 @@ This folder will contain the scripts for :
 
 
 ## Instructions
+<<<<<<< HEAD
 1. You should work on the small data provided on the drive in data/smallData/rawData/ 
+=======
+1. You should work on the small data provided on the drive in data/smallData/rawData/
+>>>>>>> cleaning
 You will download these files and put them in your own github repo (locally) at data/smallData/rawData/
 
 2. To perform your data cleaning, you should create your own jupyter notebook EDA_[yourName].ipynb and then, for every feature you are cleaning **in the notebook** :
@@ -21,7 +25,11 @@ d. Write a summary of what you did for that feature **in the README**
 I will provide a template of EDA.ipynb you can use
 
 3. When you finished your data cleaning on your features, save your cleaned dataset in data/tmp/[yourName]/ ...
+<<<<<<< HEAD
                                           
+=======
+
+>>>>>>> cleaning
 
 
 
@@ -225,22 +233,7 @@ Dates not handled yet
 
 
 
-**Add boolean column for max value:**
-- Loan amount (named loan_amnt_is_max)
-- funded_amnt (named funded_amnt_is_max)
-- open_acc (named first_acc)
-
-**Add boolean column for min value:**
-- Loan amount (named loan_amnt_is_max)
-- funded_amnt (named funded_amnt_is_max)
-
-**Add boolean column for 0's:**
-- funded_amnt_inv (named first_inv_for_loan)
-- delinq_2yrs (named no_delinq_2yrs)
-- mths_since_last_delinq (named delinq_this_month)
-- mths_since_last_record (named record_this_month)
-- revol_bal (named no_revolving_credit)
-
-**Dropped columns:**
-- out_prncp (only 0 or missing values)
-- out_prncp_inv (only 0 or missing)
+## Data Cleaning for Numeric Columns
+- dropped columns that had 0 or 1 samples
+- dropped columns that contain a single value
+- dropped rows that had entry over ~5 stds from mean and failed visual inspection
