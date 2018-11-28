@@ -80,7 +80,9 @@ We will use only 2 variables to avoid colinearity : Income_Verified and Income_S
 
 **- issue_d**
 
-Did not find doc. on this feature, I will skip it for now...
+date, I embedded it using issue_d_day and issue_d_month. The issue_d_year should be added depending on the data source...
+
+
 
 - loan_status
 
