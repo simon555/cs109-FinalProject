@@ -4,11 +4,8 @@ This folder will contain the scripts for :
 
 
 ## Instructions
-<<<<<<< HEAD
-1. You should work on the small data provided on the drive in data/smallData/rawData/ 
-=======
+
 1. You should work on the small data provided on the drive in data/smallData/rawData/
->>>>>>> cleaning
 You will download these files and put them in your own github repo (locally) at data/smallData/rawData/
 
 2. To perform your data cleaning, you should create your own jupyter notebook EDA_[yourName].ipynb and then, for every feature you are cleaning **in the notebook** :
@@ -25,11 +22,6 @@ d. Write a summary of what you did for that feature **in the README**
 I will provide a template of EDA.ipynb you can use
 
 3. When you finished your data cleaning on your features, save your cleaned dataset in data/tmp/[yourName]/ ...
-<<<<<<< HEAD
-                                          
-=======
-
->>>>>>> cleaning
 
 
 
