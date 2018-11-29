@@ -1,7 +1,6 @@
 import pandas as pd
 
-def clean_numeric(input):
-    df = pd.read_csv(inp)
+def cleanNumeric(df):
 
     num_cols = df.dtypes.index[(df.dtypes == 'float64')|(df.dtypes == 'int64')]
     df_num = df[num_cols]
@@ -9,6 +8,9 @@ def clean_numeric(input):
 
     # remove columns that have 0 or 1 entries and rest missing
     not_missing_cols = df_num.columns[df_num.isna().sum(axis = 0) < len(df_num) - 1]
+    df_num = df_num[not_missing_cols]
+    
+    not_missing_cols = df_num.columns[df_num.isna().sum(axis = 0) <0.3 *len(df_num)]
     df_num = df_num[not_missing_cols]
 
     # remove column with single value
