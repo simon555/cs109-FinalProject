@@ -1,3 +1,11 @@
+## relevant EDA from the web
+
+* https://rstudio-pubs-static.s3.amazonaws.com/188686_bbc6b7af26534704976d3a8edfc5b328.html
+
+
+
+
+
 This folder will contain the scripts for :
 - data cleaning
 - feature engineering
