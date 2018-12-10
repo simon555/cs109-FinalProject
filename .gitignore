@@ -2,6 +2,8 @@
 data/**/*.csv
 
 
+#include small csv files
+!data/state_centroids/statelatlong.csv
 
 
 
